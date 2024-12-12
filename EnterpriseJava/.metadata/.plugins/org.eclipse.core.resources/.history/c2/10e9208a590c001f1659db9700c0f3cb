@@ -1,0 +1,14 @@
+package dataesercizi;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class esercizio1 {
+
+	public static void main(String[] args) {
+		LocalDate oggi = LocalDate.now();
+		System.out.println("Data corrente: " + oggi);
+		LocalDate date = LocalDate.of(2024, Month.AUGUST, 15);
+	}
+
+}

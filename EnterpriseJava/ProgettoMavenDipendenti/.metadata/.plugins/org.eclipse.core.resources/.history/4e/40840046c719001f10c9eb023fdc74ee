@@ -1,0 +1,80 @@
+package seriea;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class GiocatoreDao {
+	@Autowired
+	private GiocatoreRepository repo;
+	@Autowired
+	private SquadraRepository repoTeam;
+
+	public List<Giocatore> findBySquadraName(String nomeTeam) {
+		return repo.findBySquadraName(nomeTeam);
+	}
+
+	public List<Giocatore> listAll() {
+		return repo.findAll();
+	}
+
+	public void addGiocatore(Giocatore giocatore) throws Exception {
+		if (repoTeam.existsByNomesquadra(giocatore.getSquadraName())) {
+			repo.save(giocatore);
+		} else {
+			throw new Exception("Squadra Inesistente");
+		}
+
+	}
+
+//	public void deleteGiocatore(int id) throws Exception{
+//	Giocatore giocatore = repo.findById(id).orElse(null);
+//    
+//    // Verifica se il giocatore esiste
+//    if (giocatore == null) {
+//        throw new Exception("Giocatore non trovato con ID: " + id);
+//    }
+//    // Controlla se il giocatore è associato a una squadra
+//    if (giocatore.getNomesquadra() != null) {
+//        String nomeSquadra = giocatore.getNomesquadra();
+//        if (repoTeam.existsByNomesquadra(nomeSquadra)) {
+//            // Se la squadra esiste, elimina il giocatore
+//            repo.deleteById(id);
+//        } else {
+//            // Se la squadra non esiste, genera un'eccezione
+//            throw new Exception("La squadra associata al giocatore non esiste");
+//        }
+//    } }}
+
+	public void deleteGiocatore(Long id) {
+		repo.deleteById(id);
+	}
+}
+//	public void deleteGiocatore(Long id) throws Exception {
+//		if( repoTeam.existsByNomesquadra(giocatore.getSquadraName())) {
+//			repo.deleteById(giocatore);;
+//	     }else {
+//	    	 throw new Exception("Inserire un giocatore valido");
+//	     }
+//	
+//	}
+
+//	}
+//	public void deleteGiocatore(Long id) {
+//        Optional<Giocatore> giocatoreOptional = repo.findById(id);
+//        if (giocatoreOptional.isPresent()) {
+//            Giocatore giocatore = giocatoreOptional.get();
+//            if (giocatore.getSquadraName() != null) { // Controlla se il giocatore è associato a una squadra
+//                // Puoi gestire il caso in cui il giocatore è associato a una squadra, ad esempio lanciando un'eccezione o gestendo in altro modo
+//                throw new IllegalStateException("Impossibile eliminare il giocatore perché è associato a una squadra");
+//            }
+//            repo.delete(giocatore);
+//        } else {
+//            // Gestione del caso in cui il giocatore non esiste per l'ID fornito
+//            throw new IllegalArgumentException("Il giocatore con ID " + id + " non esiste");
+//        }

@@ -1,0 +1,23 @@
+package seriea;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@RequestMapping(path = "/squadre")
+public class SquadraController {
+	@Autowired
+	private SquadraDao squadraDao;
+	// Implementing a GET method to get the list of all the employees
+		@GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE) //"text/plain")
+		public List<Squadra> getSquadre() {
+			return squadraDao.listAll();
+		}
+
+}

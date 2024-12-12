@@ -1,0 +1,19 @@
+package esercizio16Aprile;
+
+public class es1 {
+
+	public static void main(String[] args) {
+		//TODO Scrivi un programma che scriva il fattoriale di un numero
+		
+		int fat = 3;
+		
+		for(int i=1; i<=3; i++)
+		{
+			fat = fat*i;
+			System.out.println("Il fattoriale è " + fat);
+		}
+
+		
+	}
+
+}

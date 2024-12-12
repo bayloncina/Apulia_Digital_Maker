@@ -1,0 +1,13 @@
+package strutturedati;
+import java.util.Comparator;
+public class Comparatore implements Comparator{
+
+
+
+	@Override
+	public int compare(Italia regione, Italia capoluogo) {
+		// TODO Auto-generated method stub
+		return String.compare ;
+	}
+
+}

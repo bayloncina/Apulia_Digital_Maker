@@ -1,0 +1,24 @@
+package dataesercizi;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+
+
+public class esercizio1 {
+
+	public static void main(String[] args) {
+		
+		LocalDate oggi = LocalDate.now();
+		DateTimeFormatter dataOggiFormattata = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+		String dataFormattata = oggi.format(dataOggiFormattata);
+		System.out.println("Data corrente: " + dataOggiFormattata);
+		LocalDate ferragosto = LocalDate.of(2024, Month.AUGUST, 15);
+		//Duration tempoMancante = Duration.between(oggi, ferragosto);
+		//System.out.println("Differenza di tempo: " + tempoMancante.toDays() + " ore");
+		LocalDate compleanno = LocalDate.of(1988, Month.OCTOBER, 13);
+		System.out.println("Il tuo compleanno è : " + compleanno);
+		LocalDate festa = compleanno.plusDays(7);
+		System.out.println("La festa de tuo compleanno durerà fino a : " + festa);
+		
+	}
+
+}

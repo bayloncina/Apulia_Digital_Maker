@@ -1,0 +1,14 @@
+package strutturedati;
+
+public class Italia {
+private String regione, capoluogo;
+public Italia (String regione, String capoluogo) {
+	this.regione = regione;
+	this.capoluogo= capoluogo;
+	
+}
+
+
+
+
+}

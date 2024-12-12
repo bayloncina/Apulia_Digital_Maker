@@ -1,0 +1,7 @@
+package thread;
+
+public class Produttore {
+	
+	private ArrayList<Numeri> numeri = new ArrayList<Numeri>();
+
+}

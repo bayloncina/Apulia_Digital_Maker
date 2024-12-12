@@ -1,0 +1,26 @@
+package seriea;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.Employee;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class SquadraDao {
+	@Autowired
+	 private SquadraRepository repo;
+	
+	public List<Squadra> listAll() {
+        return repo.findAll();
+    }
+	
+	 public Squadra getSquadra(int id) {
+	        return repo.findById(id).orElse(null);
+	    }
+
+}

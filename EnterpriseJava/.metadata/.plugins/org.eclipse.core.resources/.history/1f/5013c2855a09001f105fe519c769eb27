@@ -1,0 +1,18 @@
+package thread;
+
+import java.util.ArrayList;
+
+public class Numeri {
+	
+	 private ArrayList<Numeri> numeri;
+	 
+	 public Numeri (numeri)
+	 {this.numeri = new ArrayList<>(numeri);}
+	 
+
+public void push(Numeri numeri) {
+    numeri.add(numeri);
+}
+
+
+}

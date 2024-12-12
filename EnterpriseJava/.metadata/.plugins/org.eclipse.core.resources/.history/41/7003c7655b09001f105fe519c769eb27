@@ -1,0 +1,19 @@
+package thread;
+
+import java.util.ArrayList;
+
+public class MyStack {
+	
+	 private ArrayList<MyStack> numeri = new ArrayList<>();
+	 
+	 public MyStack ()
+	 {
+		 this.push(numeri);
+	 }
+	 
+
+public void push(ArrayList<MyStack> numeri2) {
+    
+}
+
+}

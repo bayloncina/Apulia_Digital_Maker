@@ -1,0 +1,14 @@
+package strutturedati;
+import java.util.Comparator;
+import java.util.TreeMap;
+public class TreeMapComparatorEx {
+
+	public static void main(String[] args) {
+		Comparatore comparatore = new Comparatore();
+		
+		 TreeMap<Italia, String> treeMap = new TreeMap<>(comparatore);
+		 
+		 treeMap.put(new Italia(("Puglia", "Bari"), "Bari"));
+}
+
+}

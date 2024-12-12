@@ -1,0 +1,25 @@
+package strutturedati;
+
+public class Regione {
+private String nome;
+public String getNome() {
+	return nome;
+}
+public void setNome(String nome) {
+	this.nome = nome;
+}
+public int getAbitanti() {
+	return abitanti;
+}
+public void setAbitanti(int abitanti) {
+	this.abitanti = abitanti;
+}
+private int abitanti;
+public Regione (String nome, int abitanti) {
+	this.nome = nome;
+	this.abitanti = abitanti;
+}
+
+
+
+}

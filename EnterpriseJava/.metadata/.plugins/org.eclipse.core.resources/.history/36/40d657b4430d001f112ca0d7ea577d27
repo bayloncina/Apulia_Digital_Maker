@@ -1,0 +1,6 @@
+package strutturedati;
+
+public class Italia {
+private String regione, provincia;
+ù
+}

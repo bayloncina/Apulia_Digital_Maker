@@ -1,0 +1,18 @@
+package thread;
+
+import java.util.ArrayList;
+
+public class esercizio1Test {
+
+	public static void main(String[] args) {
+		Thread evenThread = new Thread(new NumeriPari());
+        Thread oddThread = new Thread(new NumeriDispari());
+		NumeriPari np = new NumeriPari();
+		Thread numP = new Thread(np);
+		NumeriDispari nd = new NumeriDispari();
+		Thread numD = new Thread(nd);
+		numP.start();
+		numD.start();
+	}
+
+}

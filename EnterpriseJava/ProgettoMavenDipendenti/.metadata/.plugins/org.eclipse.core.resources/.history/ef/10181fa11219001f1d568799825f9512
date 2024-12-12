@@ -1,0 +1,22 @@
+package seriea;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(path = "/giocatori")
+public class GiocatoreController {
+
+		@Autowired
+		private GiocatoreDao giocatoreDao;
+		// Implementing a GET method to get the list of all the players
+			@GetMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE) //"text/plain")
+			public List<Giocatore> getGiocatori() {
+				return giocatoreDao.listAll();
+			}
+}

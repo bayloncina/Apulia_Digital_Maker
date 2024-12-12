@@ -1,0 +1,23 @@
+package esercizio16Aprile;
+import java.util.*;
+
+public class es1 {
+
+	public static void main(String[] args) {
+		//TODO Scrivi un programma che scriva il fattoriale di un numero
+		
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Inserisci il numero per calcolare il fattoriale");
+		int num = sc.nextInt();
+		
+		
+		for(int i=1; i<=num; i++)
+		{
+			int fat = num*i;
+		}
+		System.out.println("Il fattoriale è " + fat);
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package strutturedati;
+
+public class TreeMap {
+
+	public static void main(String[] args) {
+		Comparatore comparatore = new Comparatore();
+		
+TreeMap <Italia, String> treeMap = new Treemap<>();
+	}
+
+}

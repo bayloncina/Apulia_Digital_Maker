@@ -1,0 +1,25 @@
+package thread;
+//programma che stampi numeri pari e dispari con i thread
+
+public class NumeriPari implements Runnable {
+	int i;
+int c;
+int nPari;
+	@Override
+	public void run() {
+		for(i=1; i<=10; i++) {
+			if (i % 2 == 0) {
+				nPari = (int)(Math.random() * 26);
+				theStack.push(nPari);
+				System.out.println("Producer" + num + ": " + c);
+				try {
+					Thread.sleep((int)(Math.random() * 300));
+				} catch (InterruptedException e) {
+					// ignore it
+
+				System.out.println("Il numero "+ i + " è pari");			}
+		}
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package strutturedati;
+import java.util.Comparator;
+public class Comparatore implements Comparator<Italia>{
+
+
+	@Override
+	public int compare(Italia regione1, Italia regione2) {
+		int compareResult = regione1.getRegione().compareTo(regione2.getRegione());
+		return 0;
+	}}

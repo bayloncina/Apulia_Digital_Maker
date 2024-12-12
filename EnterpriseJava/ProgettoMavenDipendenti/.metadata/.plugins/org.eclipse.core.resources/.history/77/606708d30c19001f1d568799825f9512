@@ -1,0 +1,7 @@
+package seriea;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SquadraRepositoy extends JpaRepository <Squadra, Integer>{
+
+}

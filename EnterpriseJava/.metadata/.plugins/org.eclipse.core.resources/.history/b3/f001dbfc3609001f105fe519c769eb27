@@ -1,0 +1,12 @@
+package thread;
+
+public class esercizio1Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+NumeriPari NumeriPari = new NumeriPari();
+NumeriDispari NumeriDispari = new NumeriDispari();
+
+	}
+
+}
