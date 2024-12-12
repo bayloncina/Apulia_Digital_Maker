@@ -1,15 +1,15 @@
-# 👩‍💻 Ciao, sono Miriam! 👋
+# 👩‍💻 Hi, I'm Miriam! 👋
 
-### 🛠️ **Un po' su di me...**
-- 🎓 Studentessa di **sviluppo software** 🚀
-- 🖥️ Lingue parlate: **Java**, **C#**, **Python** (ma solo con i computer... ancora niente Klingon 👾)
-- 🍕 Alimento principale: **caffè** e **pizza**. (Sì, sono un vero cliché 🤷‍♀️)
-- 🛌 Stato attuale: **Debuggare sogni e realtà.**
+### 🛠️ **A little about me...**
+- 🎓 Software development student 🚀  
+- 🖥️ Languages spoken: **Java**, **C#**, **Python** (but only with computers... still no Klingon 👾)  
+- 🍕 Main fuel: **coffee** and **pizza**. (Yes, I'm a true cliché 🤷‍♀️)  
+- 🛌 Current status: **Debugging dreams and reality.**
 
 ---
 
-### 🧰 **Le mie armi segrete:**
-| Tecnologia | Livello di Sopravvivenza |
+### 🧰 **My secret weapons:**
+| Technology | Survival Level          |
 |------------|--------------------------|
 | Java       | 🟢🟢🟢🟢⚪ |
 | Python     | 🟢🟢🟢⚪⚪ |
@@ -17,31 +17,32 @@
 | HTML/CSS   | 🟢🟢🟢🟢⚪ |
 | JavaScript | 🟢🟢⚪⚪⚪ |
 
-⚠️ *Attenzione: livello in crescita costante... come il consumo di cioccolato durante le consegne!*
+⚠️ *Warning: skill level constantly growing... just like my chocolate consumption during deadlines!*
 
 ---
 
-### 📚 **Esercizi pratici scolastici:**
-- ✏️ [**Gestione di una libreria**](#) — Applicazione per catalogare libri e gestire prestiti, realizzata in Java.
-- 🧮 [**Calcolatrice avanzata**](#) — Una calcolatrice con funzioni estese e interfaccia grafica.
-- 🛒 [**Landing Page**](#) — Un prototipo sviluppato in HTML5, SCSS, JavaScript e Bootrstap
----
-
-### 🌱 **In cerca di...**
-- 🤝 Collaborazioni su progetti divertenti, utili o assolutamente insensati.  
-- 🧠 Idee che mi facciano pensare: *"Posso davvero costruirlo?"*
+### 📚 **Practical school exercises:**
+- ✏️ [**Library Management**](#) — An application to catalog books and manage loans, built with Java.  
+- 🧮 [**Advanced Calculator**](#) — A calculator with extended functions and a graphical interface.  
+- 🛒 [**Landing Page**](#) — A prototype developed using HTML5, SCSS, JavaScript, and Bootstrap.  
 
 ---
 
-### 🎲 **Curiosità random su di me:**
-- 🎨 Ho imparato il CSS perché volevo un sito bello.
-- 🎮 Quando non programmo, cerco di battere il mio record a *Tetris* (spoiler: non ci riesco).  
-- 🌌 Motto: *"Se il codice non compila, almeno aggiungici un commento divertente."*
+### 🌱 **Looking for...**
+- 🤝 Collaborations on fun, useful, or absolutely nonsensical projects.  
+- 🧠 Ideas that make me think: *"Can I really build this?"*
 
 ---
 
-### 📫 **Resta in contatto!**
+### 🎲 **Random fun facts about me:**
+- 🎨 I learned CSS because I wanted a beautiful website.  
+- 🎮 When I’m not coding, I try to beat my record in *Tetris* (spoiler: I can’t).  
+- 🌌 Motto: *"If the code doesn't compile, at least make the comments funny."*
+
+---
+
+### 📫 **Stay in touch!**
 - 📧 baylon.miriam@gmail.com  
-- 🔗 [LinkedIn] https://www.linkedin.com/in/maria-baylon/ — dove condivido esperienze e networking!
+- 🔗 [LinkedIn](https://www.linkedin.com/in/maria-baylon/) — where I share experiences and networking opportunities!
 
-🚀 *"Per ogni riga di codice che scrivo, una stella cade. Ma a volte rinasce."* ✨
+🚀 *"For every line of code I write, a star falls. But sometimes, it rises again."* ✨
