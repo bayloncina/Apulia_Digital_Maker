@@ -1,0 +1,14 @@
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.AssemblyInfoInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.AssemblyInfo.cs
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.csproj.CoreCompileInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\bin\Debug\net8.0\TimeSetUp.exe
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\bin\Debug\net8.0\TimeSetUp.deps.json
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\bin\Debug\net8.0\TimeSetUp.runtimeconfig.json
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\bin\Debug\net8.0\TimeSetUp.dll
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\bin\Debug\net8.0\TimeSetUp.pdb
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.dll
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\refint\TimeSetUp.dll
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.pdb
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\TimeSetUp.genruntimeconfig.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp1\TimeSetUp\obj\Debug\net8.0\ref\TimeSetUp.dll

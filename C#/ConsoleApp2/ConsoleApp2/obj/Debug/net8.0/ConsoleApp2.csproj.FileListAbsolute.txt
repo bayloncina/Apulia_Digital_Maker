@@ -1,0 +1,4 @@
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.AssemblyInfo.cs
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\bin\Debug\net8.0\ConsoleProdotti.exe
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\bin\Debug\net8.0\ConsoleProdotti.deps.json
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\bin\Debug\net8.0\ConsoleProdotti.runtimeconfig.json
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\bin\Debug\net8.0\ConsoleProdotti.dll
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\bin\Debug\net8.0\ConsoleProdotti.pdb
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.AssemblyInfoInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.AssemblyInfo.cs
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.csproj.CoreCompileInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.dll
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\refint\ConsoleProdotti.dll
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.pdb
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ConsoleProdotti.genruntimeconfig.cache
+C:\Users\Pc\ApuliaDgtMakerC\ConsoleProdotti\ConsoleProdotti\obj\Debug\net8.0\ref\ConsoleProdotti.dll

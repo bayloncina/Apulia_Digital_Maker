@@ -1,0 +1,14 @@
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\bin\Debug\net8.0\Calcolatrice.exe
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\bin\Debug\net8.0\Calcolatrice.deps.json
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\bin\Debug\net8.0\Calcolatrice.runtimeconfig.json
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\bin\Debug\net8.0\Calcolatrice.dll
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\bin\Debug\net8.0\Calcolatrice.pdb
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.AssemblyInfoInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.AssemblyInfo.cs
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.csproj.CoreCompileInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.dll
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\refint\Calcolatrice.dll
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.pdb
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\Calcolatrice.genruntimeconfig.cache
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice\Calcolatrice\obj\Debug\net8.0\ref\Calcolatrice.dll

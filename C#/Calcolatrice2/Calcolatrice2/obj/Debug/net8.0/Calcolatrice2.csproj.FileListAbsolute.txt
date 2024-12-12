@@ -1,0 +1,4 @@
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice2\Calcolatrice2\obj\Debug\net8.0\Calcolatrice2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice2\Calcolatrice2\obj\Debug\net8.0\Calcolatrice2.AssemblyInfoInputs.cache
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice2\Calcolatrice2\obj\Debug\net8.0\Calcolatrice2.AssemblyInfo.cs
+C:\Users\Pc\ApuliaDgtMakerC\Calcolatrice2\Calcolatrice2\obj\Debug\net8.0\Calcolatrice2.csproj.CoreCompileInputs.cache
