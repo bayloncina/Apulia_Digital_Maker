@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+header {
+    position: relative;
+    height: 100%;
+    background-color: #EF742E;
+    background-size: cover;
+    content: 50%;
+}
+
+img {
+    position: relative;
+    width: 7%;
+    height: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+nav {
+    width: 50%;
+    margin-left: 28%;
+    margin-right: 50%;
+    bottom: 35%;
+    position: absolute;
+}
+
+/* padre ul con id "Menu" attribuisce ai figli li tutte le proprietà CSS contenute nelle parentesi graffe */
+
+ul#Menu li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F5EFE0;
+    font-size: 32px;
+}
+
+a:hover {
+
+    color: #2b2d42;
+
+}

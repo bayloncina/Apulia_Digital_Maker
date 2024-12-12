@@ -1,0 +1,277 @@
+/* Reset del margin e del padding del body per evitare spaziature non desiderate */
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    /* Imposta il font per il testo */
+    margin: 0;
+    /* Rimuove il margine predefinito */
+    padding: 0;
+    /* Rimuove il padding predefinito */
+    background-color: #F5EFE0;
+    /*Inserisce colore allo sfondo*/
+}
+
+/* Stile per l'header */
+header {
+    display: flex;
+    /* Utilizza il flexbox per allineare i contenuti */
+    align-items: center;
+    /* Allinea i contenuti verticalmente al centro */
+    justify-content: space-between;
+    /* Allinea i contenuti orizzontalmente con spazio tra di loro */
+    background-color: #EF742E;
+    /* Imposta il colore di sfondo */
+    padding: 10px 20px;
+    /* Aggiunge spazio intorno al contenuto */
+}
+
+/* Stile per la navigazione */
+nav {
+    flex-grow: 1;
+    /* Permette alla navigazione di occupare lo spazio rimanente */
+    display: flex;
+    /* Utilizza il flexbox */
+    justify-content: center;
+    /* Allinea i contenuti orizzontalmente al centro */
+}
+
+/* Stile per l'elenco non ordinato */
+ul {
+    list-style: none;
+    /* Rimuove i punti elenco predefiniti */
+    padding: 0;
+    /* Rimuove il padding predefinito */
+    margin: 0;
+    /* Rimuove il margine predefinito */
+    display: flex;
+    /* Utilizza il flexbox per allineare gli elementi orizzontalmente */
+}
+
+/* Stile per gli elementi dell'elenco */
+ul li {
+    margin: 20px;
+    /* Aggiunge spazio intorno ad ogni elemento */
+    position: relative;
+    /* Imposta la posizione relativa per consentire la posizione assoluta della sottolineatura */
+}
+
+/* Stile per i link all'interno dell'elenco */
+ul li a {
+    text-decoration: none;
+    /* Rimuove la sottolineatura dei link */
+    color: #333;
+    /* Imposta il colore del testo */
+    position: relative;
+    /* Imposta la posizione relativa per consentire la posizione assoluta della sottolineatura */
+    transition: color 0.3s ease;
+    /* Transizione per il cambio di colore del testo */
+    font-size: 200%;
+}
+
+/* Stile per la sottolineatura */
+ul li::after {
+    content: '';
+    /* Aggiunge un contenuto vuoto */
+    position: absolute;
+    /* Imposta la posizione assoluta rispetto all'elemento padre */
+    left: 0;
+    /* Posiziona all'inizio del link */
+    bottom: -2px;
+    /* Posiziona leggermente al di sotto del testo */
+    width: 0;
+    /* Inizia senza larghezza */
+    height: 2px;
+    /* Imposta l'altezza della sottolineatura */
+    background-color: #333;
+    /* Imposta il colore della sottolineatura */
+    transition: width 0.3s ease;
+    /* Transizione per l'espansione della larghezza */
+}
+
+/* Effetto al passaggio del mouse sul link */
+ul li:hover a {
+    color: #F5EFE0;
+    /* Cambia il colore del testo al passaggio del mouse */
+}
+
+ul li:hover::after {
+    width: 100%;
+    /* Espande la larghezza della sottolineatura al passaggio del mouse */
+}
+
+/* Stile per le immagini */
+#logo {
+    max-width: 100px;
+    /* Imposta la larghezza massima dell'immagine */
+    height: auto;
+    /* Imposta l'altezza automaticamente per mantenere l'aspetto proporzionato */
+}
+
+
+
+
+/*Sistemare le section 4 5 6 */
+
+
+
+/* Stili per il video nella prima sezione */
+#video {
+    width: 100%;
+    /* Il video occupa tutta la larghezza della pagina */
+}
+
+#video video {
+    width: 100%;
+    /* Il video occupa tutta la larghezza della sezione */
+    height: auto;
+    /* Altezza automatica per mantenere le proporzioni */
+}
+
+/* Stili per centrare il testo nella seconda sezione */
+#testoPrincipale {
+    text-align: center;
+    /* Testo centrato */
+}
+
+/* Stili per le card nella terza sezione */
+#Cards {
+    display: flex;
+    /* Utilizzo di flexbox per allineare le card */
+    flex-wrap: wrap;
+    /* Consente alle card di avvolgersi su più righe se necessario */
+    justify-content: space-between;
+    /* Distribuzione uniforme delle card lungo il container */
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    /* Larghezza della card con spaziatura tra di esse */
+    margin-bottom: 20px;
+    /* Spaziatura inferiore tra le card */
+    border-radius: 30px;
+    /* Bordi arrotondati */
+    background-color: #f0f0f0;
+    /* Colore di sfondo della card */
+    padding: 20px;
+    /* Spazio interno della card */
+    box-sizing: border-box;
+    /* Considera il padding e il bordo nella larghezza totale */
+    text-align: center;
+    /* Mette il testo centrato */
+}
+
+.card img {
+    width: 100%;
+    /* Immagini all'interno delle card occupano tutta la larghezza disponibile */
+    border-radius: 20px;
+    /* Bordi arrotondati per le immagini */
+}
+
+.buttoncard {
+    border-radius: 5px;
+    /* Bordi arrotondati per il bottone */
+    background-color: #007bff;
+    /* Colore di sfondo del bottone */
+    color: #fff;
+    /* Colore del testo del bottone */
+    padding: 5px 10px;
+    /* Spazio interno del bottone */
+    border: none;
+    /* Rimuovere il bordo del bottone */
+    cursor: pointer;
+    /* Mostra il cursore come un puntatore */
+}
+
+
+/* Stili per il bottone finale */
+#contactButton {
+    display: block;
+    /* Renderizza il bottone come un blocco */
+    margin: 20px auto;
+    /* Margini superiori e inferiori 20px, margini laterali automatici per centrare */
+    border-radius: 10px;
+    /* Bordi arrotondati per il bottone */
+    background-color: #007bff;
+    /* Colore di sfondo del bottone */
+    color: #fff;
+    /* Colore del testo del bottone */
+    padding: 10px 20px;
+    /* Spazio interno del bottone */
+    border: none;
+    /* Rimuovere il bordo del bottone */
+    cursor: pointer;
+    /* Mostra il cursore come un puntatore */
+}
+
+
+
+
+footer {
+    display: flex;
+    /* Utilizziamo flexbox per organizzare i contenuti del footer */
+    flex-direction: row;
+    /* Impostiamo l'orientamento dei figli del footer in orizzontale */
+    background-color: #EF742E;
+    /* Impostiamo il colore di sfondo del footer */
+    justify-content: space-around;
+    /* Distribuiamo gli spazi tra i figli del footer */
+    align-items: center;
+    /* Allineiamo il contenuto verticalmente al centro */
+    font-size: 15px;
+    /* Impostiamo la dimensione del carattere */
+    width: 100%;
+    /* Impostiamo la larghezza del footer al 100% della larghezza del suo contenitore */
+    padding: 30px;
+    /* Rimuoviamo il padding predefinito */
+   
+    
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+   
+}
+
+#social {
+    display: flex;
+    list-style: none; /*elimina elenco puntato*/
+    flex-direction: row;
+    align-items: center;
+    text-align: left; /* Orienta il testo a sinistra */
+    padding: 0px;
+    
+}
+
+#contatti {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    text-align: left; /* Orienta il testo a sinistra */
+
+}
+
+#privacy {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; /* Orienta il testo a sinistra */
+    justify-items: normal;
+
+    
+}
+
+.elencoFooter {
+    margin: 0px;
+    text-align: left; /* Orienta il testo a sinistra */
+    color: #F5EFE0;
+}
+
+/* Stili responsivi */
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: 30%;
+        /* Modifica la larghezza delle card per dispositivi più piccoli */
+    }
+}
