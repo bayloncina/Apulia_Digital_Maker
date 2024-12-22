@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;">
+        <img
+          src="assets/formulaLogo.png"
+          alt="Logo"
+          style="height: 100px; margin: 0 auto"
+        />
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-buttons>
+    <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+  </ion-buttons>
+  <ion-segment [value]="segmentValue" (ionChange)="onSegmentChange($event)">
+    <ion-segment-button value="sessions">
+      <ion-label>Sessioni</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="drivers">
+      <ion-label>Piloti</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+
+<ion-list>
+  @if(segmentValue === 'sessions'){ @for (session of sessions; track $index ){
+  <ion-card-header>
+    <ion-card-title>{{ session.session_name }}</ion-card-title>
+    <ion-card-subtitle>{{ session.circuit_short_name }}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-button [routerLink]="['/tabs/tab1/', meetingKey, session.session_key]"
+    >Dettagli</ion-button>
+
+  } } @else if(segmentValue === 'drivers'){ @for(driver of drivers; track
+  $index){
+  <ion-list>
+    <ion-card>
+      <ion-card-header>
+        <img
+          [src]="driver.headshot_url"
+          alt="{{ driver.full_name }}"
+          style="width: 90px; height: 90px"
+        />
+        <ion-card-title>{{ driver.full_name }}</ion-card-title>
+        <ion-card-subtitle>{{ driver.team_name }}</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+  </ion-list>
+  }}
+</ion-list>

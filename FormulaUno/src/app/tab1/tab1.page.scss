@@ -1,0 +1,99 @@
+ion-header {
+    background: black;
+    ion-toolbar {
+      --background: black;
+      ion-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        img {
+          height: 100px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  
+  ion-content {
+    --background: linear-gradient(to bottom, black, darkgray);
+    color: white;
+  
+    ion-header {
+      ion-toolbar {
+        ion-title {
+          color: red;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+  
+    .select-year {
+      ion-item {
+        justify-content: center;
+        text-align: center;
+        ion-select {
+          --placeholder-color: white;
+          --color: red;
+          border: 1px solid red;
+          border-radius: 5px;
+          background: black;
+        }
+      }
+    }
+  
+    ion-list {
+      ion-item {
+        background: rgba(255, 0, 0, 0.1);
+        border: 1px solid red;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
+  
+        &:hover {
+          transform: scale(1.05);
+          background: rgba(255, 0, 0, 0.2);
+        }
+  
+        ion-label {
+          text-align: center;
+          h3 {
+            color: black;
+            font-weight: bold;
+          }
+        }
+  
+        ion-button {
+          --background: red;
+          --color: white;
+          border-radius: 5px;
+  
+          &:hover {
+            --background: white;
+            --color: red;
+          }
+        }
+      }
+    }
+  
+    .error-message {
+      text-align: center;
+      h3 {
+        color: yellow;
+        font-weight: bold;
+      }
+  
+      ion-button {
+        --background: yellow;
+        --color: black;
+        border-radius: 5px;
+  
+        &:hover {
+          --background: black;
+          --color: yellow;
+        }
+      }
+    }
+  }
+  

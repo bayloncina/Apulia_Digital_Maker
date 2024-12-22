@@ -1,0 +1,86 @@
+
+ion-toolbar {
+  --background: black;
+}
+
+ion-list {
+    // Stile per il back button
+    ion-buttons {
+      ion-back-button {
+        --background: red;
+        --color: white;
+        --border-radius: 5px;
+    
+        &:hover {
+          --background: white;
+          --color: red;
+        }
+      }
+    }
+  
+    // Segment style
+    ion-segment {
+      --background: black;
+      --indicator-color: red;
+  
+      ion-segment-button {
+        ion-label {
+          color: white;
+          font-weight: bold;
+        }
+  
+        &[value="sessions"], &[value="drivers"] {
+          --color-checked: red;
+        }
+  
+        &.segment-checked {
+          --background: red;
+          --color: white;
+        }
+  
+        &:hover {
+          --background: red;
+          --color: white;
+        }
+      }
+    }
+  
+    // Session and Driver cards
+    ion-card-header {
+      background: rgba(255, 0, 0, 0.1);
+      border: 1px solid red;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        background: rgba(255, 0, 0, 0.2);
+      }
+  
+      ion-card-title {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+  
+      ion-card-subtitle {
+        color: gray;
+        font-size: 16px;
+      }
+    }
+  
+    // Button to session details
+    ion-button {
+      --background: red;
+      --color: white;
+      margin-top: 10px;
+      border-radius: 5px;
+  
+      &:hover {
+        --background: white;
+        --color: red;
+      }
+    }
+  }
+  

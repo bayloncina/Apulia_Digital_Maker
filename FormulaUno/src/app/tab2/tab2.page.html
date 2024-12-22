@@ -1,0 +1,84 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+        "
+      >
+        <img
+          src="assets/formulaLogo.png"
+          alt="Logo"
+          style="height: 100px; margin: 0 auto"
+        />
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Piloti</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Tab 2 page"></app-explore-container>
+
+  @if (!isLoading){
+  <ion-list>
+    @for (driver of [1,2,3,4,5,6,7,8,9]; track $index) {
+    <h3>
+      <ion-skeleton-text
+        [animated]="true"
+        style="width: 100%"
+      ></ion-skeleton-text>
+    </h3>
+    <p>
+      <ion-skeleton-text
+        [animated]="true"
+        style="width: 80%"
+      ></ion-skeleton-text>
+    </p>
+    <p>
+      <ion-skeleton-text
+        [animated]="true"
+        style="width: 50%"
+      ></ion-skeleton-text>
+    </p>
+    }
+  </ion-list>
+  } @else {
+  <ion-list>
+    @for (drivers of drivers; track $index){
+
+    <ion-card style="text-align: center; align-items: ce">
+      <img
+        [src]="drivers.headshot_url"
+        alt="{{drivers.full_name}}"
+        style="width: 90px; height: 90px"
+      />
+
+      <ion-card-header>
+        <ion-card-title>{{ drivers.full_name }}</ion-card-title>
+        <ion-card-subtitle>{{drivers.country_code}}</ion-card-subtitle>
+        <ion-card-subtitle>{{drivers.team_name}}</ion-card-subtitle>
+        <ion-card-subtitle
+          >Gareggia con il numero: {{drivers.driver_number}}</ion-card-subtitle
+        >
+      </ion-card-header>
+    </ion-card>
+    }
+  </ion-list>
+  } @if (isError) {
+  <ion-label>
+    <h3>Errore!</h3>
+    <ion-button (click)="OnRefreshPage()">
+      Clicca qui per riaggiornare.
+    </ion-button>
+  </ion-label>
+  }
+</ion-content>

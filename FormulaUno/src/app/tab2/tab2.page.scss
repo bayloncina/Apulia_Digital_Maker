@@ -1,0 +1,102 @@
+ion-header {
+  background: black;
+  ion-toolbar {
+    --background: black;
+    ion-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      img {
+        height: 100px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+ion-content {
+  --background: linear-gradient(to bottom, black, darkgray);
+  color: white;
+
+  ion-header {
+    ion-toolbar {
+      ion-title {
+        color: red;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  ion-list {
+    .ion-card {
+      background: rgba(255, 0, 0, 0.1);
+      border: 1px solid red;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      transition: all 0.3s ease;
+      text-align: center;
+
+      &:hover {
+        transform: scale(1.05);
+        background: rgba(255, 0, 0, 0.2);
+      }
+
+      img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 2px solid red;
+      }
+
+      ion-card-header {
+        ion-card-title {
+          color: white;
+          font-weight: bold;
+        }
+
+        ion-card-subtitle {
+          color: gray;
+          text-transform: uppercase;
+        }
+      }
+
+      ion-button {
+        --background: red;
+        --color: white;
+        border-radius: 5px;
+
+        &:hover {
+          --background: white;
+          --color: red;
+        }
+      }
+    }
+  }
+
+  ion-skeleton-text {
+    --background: rgba(255, 255, 255, 0.1);
+    --background-animated: rgba(255, 0, 0, 0.3);
+  }
+
+
+  .error-message {
+    text-align: center;
+    h3 {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    ion-button {
+      --background: yellow;
+      --color: black;
+      border-radius: 5px;
+
+      &:hover {
+        --background: black;
+        --color: yellow;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+        "
+      >
+        <img
+          src="assets/formulaLogo.png"
+          alt="Logo"
+          style="height: 100px; margin: 0 auto"
+        />
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-buttons>
+  <ion-back-button defaultHref="tabs/tab1/{{ sessionKey }}"></ion-back-button>
+</ion-buttons>
+
+<ion-segment [value]="segmentValue" (ionChange)="onSegmentChange($event)">
+  <ion-segment-button value="drivers">
+    <ion-label>Piloti</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="positions">
+    <ion-label>Classifica</ion-label>
+  </ion-segment-button>
+</ion-segment>
+
+<ion-list>
+  @if(segmentValue === 'drivers') { @for(driver of drivers; track $index) {
+  <ion-card>
+    <ion-card-header>
+      <img
+        [src]="driver.headshot_url"
+        alt="{{ driver.full_name }}"
+        style="width: 90px; height: 90px"
+      />
+      <ion-card-title>{{ driver.full_name }}</ion-card-title>
+      <ion-card-subtitle>{{ driver.team_name }}</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  }}
+</ion-list>
+<ion-list>
+@if(segmentValue === 'positions'){
+<ion-label>Seleziona Piloti</ion-label>
+<ion-select (ionChange)="onDriversChange($event)" multiple>
+  <ion-select-option *ngFor="let driver of drivers" 
+  [value]="driver.driver_number"> {{ driver.full_name}}
+  </ion-select-option>
+</ion-select>
+<p-chart type="line" [data]="data" [options]="options"></p-chart>
+}
+</ion-list>

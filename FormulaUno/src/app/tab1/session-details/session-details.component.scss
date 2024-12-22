@@ -1,0 +1,175 @@
+ion-toolbar {
+  --background: black;
+}
+
+ion-buttons {
+    ion-back-button {
+      --background: red;
+      --color: white;
+      --border-radius: 5px;
+  
+      &:hover {
+        --background: white;
+        --color: red;
+      }
+    }
+  }
+  
+  ion-segment {
+    --background: black;
+    --indicator-color: red;
+  
+    ion-segment-button {
+      ion-label {
+        color: white;
+        font-weight: bold;
+      }
+  
+      &[value="drivers"] {
+        --color-checked: red;
+      }
+  
+      &[value="positions"] {
+        --color-checked: red;
+      }
+  
+      &.segment-checked {
+        --background: red;
+        --color: white;
+      }
+  
+      &:hover {
+        --background: red;
+        --color: white;
+      }
+    }
+  }
+  
+  ion-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.1);
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background: rgba(255, 0, 0, 0.2);
+    }
+  
+    ion-label {
+      color: white;
+  
+      &:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ion-img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          border: 2px solid red;
+        }
+      }
+  
+      &:nth-child(2) {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  ion-select {
+    --placeholder-color: white;
+    --color: red;
+    --background: black;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px 0;
+  
+    ion-select-option {
+      --color: white;
+      background: black;
+  
+      &:checked {
+        --background: red;
+      }
+  
+      &:hover {
+        background: rgba(255, 0, 0, 0.2);
+      }
+    }
+  }
+
+  
+  ion-list {
+    max-height: 100%; 
+    overflow-y: auto; 
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  ion-item {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    
+    ion-img {
+      width: 50px;  
+      height: 50px;
+      border-radius: 50%; 
+      margin: 15px; 
+      object-fit: cover;  
+    }
+  
+    ion-card-header {
+      background: rgba(255, 0, 0, 0.1);
+      border: 1px solid red;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        background: rgba(255, 0, 0, 0.2);
+      }
+  
+      ion-card-title {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+  
+      ion-card-subtitle {
+        color: gray;
+        font-size: 16px;
+      }
+    }
+  }
+  p-chart {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 10px;
+  
+    canvas {
+      background-color: black;
+    }
+  
+    
+    .chart-line {
+      stroke: red;
+      fill: none;
+    }
+  
+    .chart-point {
+      fill: white;
+      stroke: red;
+    }
+  }
