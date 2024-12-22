@@ -1,7 +1,0 @@
-package thread;
-
-public class Produttore {
-	
-	private ArrayList <Numeri> = new ArrayList <Numeri>;
-
-}

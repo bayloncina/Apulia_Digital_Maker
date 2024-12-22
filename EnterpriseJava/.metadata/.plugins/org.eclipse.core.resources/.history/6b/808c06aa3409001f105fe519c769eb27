@@ -1,7 +1,0 @@
-package thread;
-
-public class esecizio1 implements Runnuble{
-// programma che stampi numeri pari e dispari con i thread
-	
-	
-}

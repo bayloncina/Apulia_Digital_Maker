@@ -1,9 +1,0 @@
-package thread;
-
-import java.util.ArrayList;
-
-public class Produttore {
-	
-	private ArrayList<Numeri> numeri = new ArrayList<Numeri>(20);
-
-}

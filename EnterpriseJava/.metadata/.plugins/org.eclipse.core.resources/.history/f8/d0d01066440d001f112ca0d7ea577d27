@@ -1,5 +1,0 @@
-package strutturedati;
-import java.util.Comparator;
-public class Comparatore implements Comparator{
-
-}
