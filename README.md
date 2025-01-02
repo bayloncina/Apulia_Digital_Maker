@@ -9,13 +9,13 @@
 ---
 
 ### 🧰 **My secret weapons:**
-| Technology | Survival Level          |
-|------------|--------------------------|
-| Java       | 🟢🟢🟢🟢⚪ |
-| Python     | 🟢🟢🟢⚪⚪ |
-| C#         | 🟢🟢⚪⚪⚪ |
-| HTML/CSS   | 🟢🟢🟢🟢⚪ |
-| JavaScript | 🟢🟢⚪⚪⚪ |
+| Technology |
+|------------|
+| Java       | 
+| Python     | 
+| C#         | 
+| HTML/CSS   |
+| JavaScript |
 
 ⚠️ *Warning: skill level constantly growing... just like my chocolate consumption during deadlines!*
 
