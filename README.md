@@ -1,5 +1,7 @@
 # 👩‍💻 Hi, I'm Miriam! 👋
 
+<marquee>Questa è una scritta dinamica che scorre!</marquee>
+
 ### 🛠️ **A little about me...**
 - 🎓 Software development student 🚀  
 - 🖥️ Languages spoken: **Java**, **C#**, **Python** (but only with computers... still no Klingon 👾)  
